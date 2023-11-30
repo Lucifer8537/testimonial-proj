@@ -1,0 +1,149 @@
+@media (min-width: 768px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    background: url("../assets/pattern-curve.svg") bottom left,
+      url("../assets/pattern-quotes.svg") 18% 24%,
+      url("../assets/pattern-bg.svg") 90% 30%;
+    background-repeat: no-repeat;
+    background-size: auto, 120px, 690px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  .main-container {
+    background-repeat: no-repeat !important;
+    background-position: 81% !important;
+    height: 100%;
+    position: relative;
+    display: flex;
+  }
+  .main {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    margin-left: 10%;
+    z-index: 1;
+  }
+  .main-txt {
+    font-size: 37px;
+  }
+
+  .credential {
+    margin-top: 5%;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 2%;
+  }
+
+  .designation {
+    font-size: 20px;
+    color: hsl(240, 18%, 77%);
+    font-weight: 600;
+  }
+  .button-container {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: white;
+    border-radius: 25px;
+    position: absolute;
+    left: 50px;
+    bottom: -25px;
+    box-shadow: -5px 20px 100px hsl(240, 38%, 20%);
+  }
+  .next {
+    cursor: pointer;
+  }
+  .prev {
+    cursor: pointer;
+  }
+  .img-container {
+    position: absolute;
+    right: 175px;
+    top: 75px;
+  }
+
+  .profile {
+    position: relative;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    background: url("../assets/pattern-curve.svg") bottom left,
+      url("../assets/pattern-quotes.svg") center 55%,
+      url("../assets/pattern-bg.svg") center 5%;
+    background-repeat: no-repeat;
+    background-size: contain, 15%, 90%;
+    display: grid;
+    justify-content: center;
+  }
+  .main-container {
+    background-repeat: no-repeat !important;
+    background-size: 65% !important;
+    padding: 15% 10% 0% 10%;
+    background-position: center 15% !important;
+    position: relative;
+    text-align: center;
+    display: flex;
+  }
+
+  .main {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    margin: 0% 4%;
+    z-index: 1;
+  }
+  .main-txt {
+    font-size: 21px;
+  }
+
+  .img-container {
+    position: relative;
+    margin: 0 auto;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .profile {
+    width: 90%;
+  }
+
+  .credential {
+    margin-top: 5%;
+    display: grid;
+  }
+
+  .name {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 2%;
+  }
+
+  .designation {
+    font-size: 15px;
+    color: hsl(240, 18%, 77%);
+    font-weight: 600;
+  }
+  .button-container {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: white;
+    border-radius: 25px;
+    position: absolute;
+    right: 39%;
+    bottom: -5%;
+    box-shadow: -5px 5px 78px hsl(240, 38%, 20%);
+  }
+}
